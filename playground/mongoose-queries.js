@@ -3,9 +3,9 @@ const {mongoose} = require('./../server/db/mongoose');
 const {Todo} = require('./../server/models/todo');
 const {User} = require('./../server/models/user');
 
+/*
 var id = '59006a340a08219c18ef1b4d';
 
-/*
 if(!ObjectID.isValid(id)) {
   console.log('ID not valid');
 }
